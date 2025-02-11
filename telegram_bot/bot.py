@@ -15,8 +15,11 @@ def handle_message(message):
     text = message.text
     audio_path = tts_engine.generate_speech(text, output_format="mp3")
 
-    with open(audio_path, 'rb') as audio_file:
-        bot.send_voice(message.chat.id, audio_file)
+    if audio_path: 
+        with open(audio_path, 'rb') as audio_file:
+            bot.send_voice(message.chat.id, audio_file)
+    else:
+        bot.reply_to(message, "Error generating speech. Please try again.")
 
 if __name__ == '__main__':
     bot.polling()
