@@ -1,35 +1,12 @@
-# Flask for web API
 Flask==2.3.2
-
-# Pydub for audio processing
 pydub==0.25.1
-
-# Soundfile for saving audio files
 soundfile==0.12.1
-
-# Python-dotenv for environment variable management
 python-dotenv==0.21.0
-
-# PyMongo for MongoDB interaction
 pymongo==4.3.3
-
-# PyTelegramBotAPI for Telegram bot
 pyTelegramBotAPI==4.10.0
-
-# Torch for deep learning models
 torch==2.0.1
-
-# NumPy for numerical operations
 numpy==1.23.5
-
-# SciPy for scientific computing
 scipy==1.10.1
-
-# Requests for making HTTP requests
 requests==2.28.2
-
-# Gunicorn for serving the Flask app
 gunicorn==20.1.0
-
-# Flask-CORS for handling CORS
 flask-cors==3.0.10
