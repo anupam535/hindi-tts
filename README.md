@@ -27,5 +27,5 @@ This project aims to develop an advanced Hindi Text-to-Speech (TTS) app that gen
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/hindi-tts.git
-   cd hindi-tts
+   git clone https://github.com/anupam535/hindi_tts_app.git
+   cd hindi_tts_app
