@@ -1,5 +1,6 @@
 import telebot
 from core.tts_engine import TTSEngine
+from hindi_tts_app.core.tts_engine import TTSEngine
 from utils.config import Config
 import os
 
